@@ -1,0 +1,8 @@
+:root {
+    ---greyC : #f111
+}
+.navigation {
+    height: 300px;
+    display: grid;
+    background-color: var(---greyC);
+}
