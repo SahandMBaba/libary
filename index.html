@@ -7,15 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="popUp">
+        <form action="" name="myForm">
+            <input name="title" type="text" placeholder="Name of the book" required>
+            <input name="author" type="text" placeholder="Name of the author" required>
+            <input  name="page" type="number" placeholder="number of the pages" required> <br>
+            <label for="read">Have you read it?</label><input type="checkbox" name="read">  <br>
+            <input  class="btn" id="submitBook" type="submit">
+        </form>
+    </div>
     <div class="navigation">
         <div class="navItem1"></div>
         <div class="navItem2"><h1 class="text">Libary</h1></div>
-        <div class="navItem3"><button class="btn">Add Book</button></div>
+        <div class="navItem3"><button class="btn" id="ButtonBook">Add Book</button></div>
     </div>
     <div class="interface">
-    <div class="holder"></div>
+    <div class="holder">
+        <!-- <div><h1>Title of the book</h1>  <h2>kak xom</h2> <h3>250pages</h3> <button class="buttonCheck">Read</button>
+        <button>Remove</button></div> -->
+    
+
+        
+    </div>
 
 
 </div>
+<script src="function.js"></script>
 </body>
 </html>
